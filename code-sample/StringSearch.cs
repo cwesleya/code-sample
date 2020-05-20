@@ -6,7 +6,7 @@ namespace code_sample
     public static class StringSearch
     {
         /// <summary>
-        /// Binary search algorithm for strings, returning true if strList contains str and false otherwise
+        /// Binary search algorithm for strings, returning true if an ordered strList contains str, and false otherwise
         /// </summary>
         /// <param name="strList"></param>
         /// <param name="str"></param>
