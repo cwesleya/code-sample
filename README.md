@@ -10,6 +10,6 @@
 
 ### Testing the solutions
 
-This .NET Core console application should run in Mac or Windows. To run the tests in the CLI, navigate to the solution's base directory and run this command:
+You should be able to run this console application, and its tests, on either Mac or Windows, assuming you have the .NET Core SDK. To run the tests using in the CLI, navigate to the solution's base directory and run the following command:
 
 ``` dotnet test```
