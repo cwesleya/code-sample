@@ -45,7 +45,10 @@ namespace code_sample
         /// <returns>int</returns>
         public static int SumRangeOdd(int startRange, int endRange)
         {
-            return SumRange(startRange, endRange) - SumRangeEven(startRange, endRange);
+            int sumTotal = SumRange(startRange, endRange);
+            int sumEven = SumRangeEven(startRange, endRange);
+
+            return sumTotal - sumEven;
         }
     }
 }
