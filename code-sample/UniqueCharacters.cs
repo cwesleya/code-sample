@@ -12,14 +12,14 @@ namespace code_sample
         /// <returns>bool</returns>
         public static bool UniqueChars(string str)
         {
-            var seenIt = new Dictionary<char, bool>();
+            var seenIt = new HashSet<char>();
 
             foreach (char c in str)
             {
-                if (seenIt.ContainsKey(c))
+                if (seenIt.Contains(c))
                     return false;
 
-                seenIt[c] = true;
+                seenIt.Add(c);
             }
 
             return true;
